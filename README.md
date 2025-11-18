@@ -51,27 +51,48 @@ A **Machine Learning-based web app** that predicts loan approval status with **8
 - **Scikit-learn:** Logistic Regression, Random Forest, Gradient Boosting  
 - **Imbalanced-learn:** SMOTE  
 - **Joblib:** Model & encoder serialization  
-- **Streamlit:** Web application  
+- **Streamlit:** Web application
 
 ---
 
-## 🚀 How to Run Locally
+##  📂 Project Structure
 
-1. **Clone the repository**
+Loan_Approval_Predictor/
+│
+├── App/                  # Streamlit app files
+│   └── app.py
+├── Data/                 # Dataset
+│   └── loan_prediction.csv
+├── Scripts/              # ML scripts and models
+│   ├── loan_model.pkl
+│   ├── scaler.pkl
+│   └── encoders.pkl
+├── Visualizations/       # Saved plots and charts
+├── requirements.txt      # Python dependencies
+└── README.md
+
+
+---
+
+## 🚀 Run Locally
+
+1. **Clone the repository**  
 
 ```bash
 git clone https://github.com/Meenakshi-1802/Loan_Approval_Predictor.git
 cd Loan_Approval_Predictor
+```
 
 2. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
+```
 
 3. **Run the app**
 
 ```bash
 streamlit run app/app.py
+```
+
 4. **Open the URL shown in the terminal**
-
-
