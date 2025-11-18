@@ -55,25 +55,6 @@ A **Machine Learning-based web app** that predicts loan approval status with **8
 
 ---
 
-##  📂 Project Structure
-
-Loan_Approval_Predictor/
-│
-├── App/                  # Streamlit app files
-│   └── app.py
-├── Data/                 # Dataset
-│   └── loan_prediction.csv
-├── Scripts/              # ML scripts and models
-│   ├── loan_model.pkl
-│   ├── scaler.pkl
-│   └── encoders.pkl
-├── Visualizations/       # Saved plots and charts
-├── requirements.txt      # Python dependencies
-└── README.md
-
-
----
-
 ## 🚀 Run Locally
 
 1. **Clone the repository**  
