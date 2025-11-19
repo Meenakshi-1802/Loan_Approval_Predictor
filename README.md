@@ -28,8 +28,6 @@ A **Machine Learning-based web app** that predicts loan approval status with **8
 - Predicts **Loan Approved ✅** or **Loan Denied ❌**  
 - Shows **approval probability** for transparency  
 - Clean, interactive **Streamlit interface**  
-- Light/Dark theme toggle 🔆  
-- GitHub profile footer integration  
 
 ---
 
